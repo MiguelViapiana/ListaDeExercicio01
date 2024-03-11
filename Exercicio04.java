@@ -14,5 +14,7 @@ public class Exercicio04 {
         System.out.println("A Subtração é: "+ (num1-num2));
         System.out.println("A Multiplicação é: "+ num1*num2);
         System.out.println("A Divisão é: "+ num1/num2);
+
+        sc.close();
     }
 }
