@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Exercicio01 {
-    public static void main(String[] args){
+    public static void executar(){
 
         Scanner sc = new Scanner(System.in);
 
@@ -12,8 +12,9 @@ public class Exercicio01 {
         if(num > 10){
             System.out.println("Número maior que 10!");
         }else{
-            System.out.println("Número menor que 10!45");
+            System.out.println("Número menor que 10!");
         }
+        sc.close();
 
     }
 }
