@@ -9,6 +9,7 @@ public class Exercicio01 {
 
         System.out.println("Digite um número: ");
         num = sc.nextInt();
+        sc.nextLine();
         if(num > 10){
             System.out.println("Número maior que 10!");
         }else{

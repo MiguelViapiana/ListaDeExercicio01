@@ -8,6 +8,7 @@ public class Exercicio02 {
         int num1, num2;
         System.out.println("Digite dois números: ");
         num1 = sc.nextInt();
+        sc.nextLine();
         num2 = sc.nextInt();
         System.out.println("A soma dos números é: "+ (num1+num2));
 
