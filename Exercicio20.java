@@ -6,6 +6,6 @@ public class Exercicio20 {
 
         double litros = distancia /12;
 
-        System.out.printf("A quantida de litros gasta na viagem é de ", litros);
+        System.out.printf("A quantida de litros gasta na viagem é de %.1f", litros);
     }
 }
