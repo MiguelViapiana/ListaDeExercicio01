@@ -9,7 +9,6 @@ public class Exercicio06 {
         temp = sc.nextDouble();
         tempFah = (9*temp +100)/5;
         System.out.printf("A temperatura %.1f C em Fahrenheit é: %.1f F", temp, tempFah);
-
         sc.close();
     }
 }
