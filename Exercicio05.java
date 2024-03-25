@@ -1,22 +1,17 @@
-import java.util.Scanner;
-
 public class Exercicio05 {
     public static void executar(){
-
-        Scanner sc = new Scanner(System.in);
 
         System.out.println("Digite dois números: ");
         int A, B, aux;
         System.out.println("Valor para A: ");
-        A = sc.nextInt();
+        A = Prompt.lerInteiro();
         System.out.println("Valor para B: ");
-        B = sc.nextInt();
+        B = Prompt.lerInteiro();
         aux = A;
         A = B;
         B = aux;
-        System.out.printf("Os valores trocas entre A e B ficam respectivamente A:%d e B:%d", A , B);
-        
-        sc.close();
+        System.out.printf("Os valores trocas entre A e B ficam respectivamente A:%d e B:%d\n", A , B);
+
     }   
 } 
 

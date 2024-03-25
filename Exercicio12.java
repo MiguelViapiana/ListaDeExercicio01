@@ -1,6 +1,6 @@
 public class Exercicio12 {
     public static void executar(){
-        int num = Prompt.lerInteiro("Digite o número do mês desejado: ");
+        int num = Prompt.lerInteiro("\nDigite o número do mês desejado: ");
         switch (num) {
             case 1:
                 System.out.println("Mês: Janeiro");

@@ -1,6 +1,6 @@
 public class Exercicio13 {
     public static void executar(){
-        double num1 = Prompt.lerDecimal("Digite um valor para A: ");
+        double num1 = Prompt.lerDecimal("\nDigite um valor para A: ");
         double num2 = Prompt.lerDecimal("Digite um valor para B: ");
         System.out.println("Escolha a operação \n1 = Somar | 2 = Subtração | 3 = Multiplicação | 4 = Divisão");
         int op = Prompt.lerInteiro();

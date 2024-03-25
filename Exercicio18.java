@@ -6,7 +6,7 @@ public class Exercicio18 {
         double nota3 = Prompt.lerDecimal("Digite a terceria nota: ");
 
         double mediaHarmonica = 3 / ((1/nota1)+ (1/nota2)+ (1/nota3));
-        System.out.printf("A media harmonica das notas é de %.1f", mediaHarmonica);
+        System.out.printf("A media harmonica das notas é de %.1f\n", mediaHarmonica);
 
     }
 }

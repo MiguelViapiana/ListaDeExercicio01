@@ -1,5 +1,4 @@
 
-
 public class Exercicio09 {
     public static void executar(){
         double num1 = Prompt.lerDecimal("Digite o primeiro número: ");
@@ -9,9 +8,9 @@ public class Exercicio09 {
         }else{
             System.out.println("Os números são diferentes!!");
             if (num1 > num2) {
-                System.out.printf("O número %.1f é maior que %.1f", num1, num2);
+                System.out.printf("O número %.1f é maior que %.1f\n", num1, num2);
             }else{
-                System.out.printf("O número %.1f é maior que %.1f", num2, num1);
+                System.out.printf("O número %.1f é maior que %.1f\n", num2, num1);
             }
         }
         

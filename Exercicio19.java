@@ -6,6 +6,6 @@ public class Exercicio19 {
 
         double volumeCilindro = 3.14* Math.pow(raio, 2) * altura;
 
-        System.out.printf("O volume do cilindro é de %.1fm³", volumeCilindro);
+        System.out.printf("O volume do cilindro é de %.1fm³\n", volumeCilindro);
     }
 }

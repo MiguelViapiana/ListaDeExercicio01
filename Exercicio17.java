@@ -9,6 +9,6 @@ public class Exercicio17 {
         int peso3 = Prompt.lerInteiro(" Peso 3: ");
 
         double mediaPond = (nota1 * peso1 + nota2 * peso2 + nota3 * peso3) / (peso1 + peso2 + peso3);
-        System.out.printf("A média ponderada das notas é de: %.2f", mediaPond);
+        System.out.printf("A média ponderada das notas é de: %.2f\n", mediaPond);
     }
 }
